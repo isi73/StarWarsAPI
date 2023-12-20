@@ -1,0 +1,79 @@
+body {
+    background-color: black !important;
+}
+
+.cardPendejo {
+    width: 32%;
+}
+
+.cardPendejo img {
+    width: 5%;
+}
+
+.azulClaro {
+    color: #ace2fd;
+}
+
+.fondoNegro {
+    background-color: black;
+}
+
+.fondoSW {
+    background-image: url(https://us.123rf.com/450wm/lisaalisaill/lisaalisaill1705/lisaalisaill170500124/79233450-ilustraci%C3%B3n-de-la-galaxia-fondo-del-espacio-con-estrellas-nebulosa-nubes-cosmos.jpg);
+}
+
+.fondoHolograma {
+    background-color: #02bae4 !important;
+    opacity: 90%;
+}
+
+.azulino {
+    filter: grayscale(100%) brightness(80%) opacity(70%);
+}
+
+.pBlanco {
+    color: white;
+}
+
+.card:hover {
+    opacity: 100%;
+    background-color: #ecd717 !important;
+
+}
+
+.card:hover .azulino {
+    filter: none;
+}
+
+.card:hover .pBlanco,
+.card-title {
+    color: black !important;
+}
+
+.card:hover .fondoHolograma {
+    background-color: white !important;
+}
+
+.card-img-top {
+    height: 600px;
+    /* Establecer una altura fija */
+    object-fit: cover;
+    /* Escalar la imagen para que cubra todo el contenedor */
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.amarillo {
+    color: #ecd717;
+}
+
+a.enlace {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+main {
+    padding-bottom: 20px;
+}

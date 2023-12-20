@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>API Star Wars (Página con fotos)</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-black bg-black text-light">
+            <div class="container">
+                <a class="navbar-brand text-light" href="#"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png"
+                        alt="" width="120px"></a>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <form class="d-flex ms-auto my-2 my-lg-0" id="busqueda">
+                        <input class="form-control me-sm-2" id="nombre" type="text"
+                            placeholder="Nombre del personaje" />
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">
+                            Buscar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="fondoSW fondoNegro">
+            <div class="container pt-3">
+                <div class="row coloresSW resultados">
+                    <template id="template-card">
+                        <div class="col-4 mt-3  ">
+                            <div class="fondoHolograma card h-100">
+                                <div class="azulino">
+                                    <img src="" alt="" class="card-img-top ">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-text pBlanco">Nombre:</h4>
+                                    <p class="card-text pBlanco negrita especie">Especie: <span
+                                            style="font-weight: normal;"></span>
+                                        </span></p>
+                                    <p class="card-text pBlanco negrita born">Nació en: <span
+                                            style="font-weight: normal;">
+                                        </span></p>
+                                    <p class="card-text pBlanco negrita planeta">Planeta de nacimiento: <a
+                                            class="enlace" href=""> </a> <a href="" class="prueba"></a></p>
+                                    <p class="card-text pBlanco negrita genero">Género: <span
+                                            style="font-weight: normal;">
+                                        </span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="navbar navbar-expand-sm fondoNegro">
+            <div class="container">
+                <div class="ms-auto me-auto">
+                    <h4 class="amarillo" href="#">Isabel y Javi &copy;</h4>
+                </div>
+            </div>
+        </nav>
+    </footer>
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/adcab5981c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
